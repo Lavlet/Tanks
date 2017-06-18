@@ -1,0 +1,45 @@
+C:\Users\Lavlet\Desktop\Tanks\Tanks\bin\Debug\Tanks.exe.config
+C:\Users\Lavlet\Desktop\Tanks\Tanks\bin\Debug\Tanks.exe
+C:\Users\Lavlet\Desktop\Tanks\Tanks\bin\Debug\Tanks.pdb
+C:\Users\Lavlet\Desktop\Tanks\Tanks\obj\Debug\Tanks.csprojResolveAssemblyReference.cache
+C:\Users\Lavlet\Desktop\Tanks\Tanks\obj\Debug\Tanks.ControllerMainWindow.resources
+C:\Users\Lavlet\Desktop\Tanks\Tanks\obj\Debug\Tanks.Properties.Resources.resources
+C:\Users\Lavlet\Desktop\Tanks\Tanks\obj\Debug\Tanks.View.resources
+C:\Users\Lavlet\Desktop\Tanks\Tanks\obj\Debug\Tanks.csproj.GenerateResource.Cache
+C:\Users\Lavlet\Desktop\Tanks\Tanks\obj\Debug\Tanks.exe
+C:\Users\Lavlet\Desktop\Tanks\Tanks\obj\Debug\Tanks.pdb
+G:\Tanks\Tanks\bin\Debug\Tanks.exe.config
+G:\Tanks\Tanks\obj\Debug\Tanks.exe
+G:\Tanks\Tanks\obj\Debug\Tanks.pdb
+G:\Tanks\Tanks\bin\Debug\Tanks.exe
+G:\Tanks\Tanks\bin\Debug\Tanks.pdb
+G:\Tanks\Tanks\obj\Debug\Tanks.csprojResolveAssemblyReference.cache
+G:\Tanks\Tanks\obj\Debug\Tanks.ControllerMainWindow.resources
+G:\Tanks\Tanks\obj\Debug\Tanks.Properties.Resources.resources
+G:\Tanks\Tanks\obj\Debug\Tanks.View.resources
+G:\Tanks\Tanks\obj\Debug\Tanks.csproj.GenerateResource.Cache
+E:\Tanks (с правками на Ладином компьютере)\Tanks\bin\Debug\Tanks.exe.config
+E:\Tanks (с правками на Ладином компьютере)\Tanks\obj\Debug\Tanks.exe
+E:\Tanks (с правками на Ладином компьютере)\Tanks\obj\Debug\Tanks.pdb
+E:\Tanks (с правками на Ладином компьютере)\Tanks\obj\Debug\Tanks.ControllerMainWindow.resources
+E:\Tanks (с правками на Ладином компьютере)\Tanks\obj\Debug\Tanks.Properties.Resources.resources
+E:\Tanks (с правками на Ладином компьютере)\Tanks\obj\Debug\Tanks.View.resources
+E:\Tanks (с правками на Ладином компьютере)\Tanks\obj\Debug\Tanks.csproj.GenerateResource.Cache
+E:\Tanks (с правками на Ладином компьютере)\Tanks\bin\Debug\Tanks.exe
+E:\Tanks (с правками на Ладином компьютере)\Tanks\bin\Debug\Tanks.pdb
+E:\Tanks (с правками на Ладином компьютере)\Tanks\bin\Debug\Tanks.exe.CodeAnalysisLog.xml
+E:\Tanks (с правками на Ладином компьютере)\Tanks\bin\Debug\Tanks.exe.lastcodeanalysissucceeded
+E:\Tanks (с правками на Ладином компьютере)\Tanks\obj\Debug\Tanks.csprojResolveAssemblyReference.cache
+C:\Users\emily\Desktop\Tanks (с правками на Ладином компьютере)\Tanks\bin\Debug\Tanks.exe.config
+C:\Users\emily\Desktop\Tanks (с правками на Ладином компьютере)\Tanks\obj\Debug\Tanks.exe
+C:\Users\emily\Desktop\Tanks (с правками на Ладином компьютере)\Tanks\obj\Debug\Tanks.pdb
+C:\Users\emily\Desktop\Tanks (с правками на Ладином компьютере)\Tanks\obj\Debug\Tanks.csprojResolveAssemblyReference.cache
+C:\Users\emily\Desktop\Tanks (с правками на Ладином компьютере)\Tanks\obj\Debug\Tanks.ControllerMainWindow.resources
+C:\Users\emily\Desktop\Tanks (с правками на Ладином компьютере)\Tanks\obj\Debug\Tanks.Properties.Resources.resources
+C:\Users\emily\Desktop\Tanks (с правками на Ладином компьютере)\Tanks\obj\Debug\Tanks.csproj.GenerateResource.Cache
+C:\Users\emily\Desktop\Tanks (с правками на Ладином компьютере)\Tanks\bin\Debug\Tanks.exe
+C:\Users\emily\Desktop\Tanks (с правками на Ладином компьютере)\Tanks\bin\Debug\Tanks.pdb
+C:\Users\emily\Desktop\Tanks (с правками на Ладином компьютере)\Tanks\obj\Debug\Tanks.GameView.resources
+C:\Users\emily\Desktop\Tanks\Tanks\bin\Debug\Tanks.exe.config
+C:\Users\emily\Desktop\Tanks\Tanks\obj\Debug\Tanks.exe
+C:\Users\emily\Desktop\Tanks\Tanks\obj\Debug\Tanks.pdb
