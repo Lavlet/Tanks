@@ -18,16 +18,16 @@ namespace Tanks.Kolobok
             switch (currentDirection)
             {
                 case MovingObject.direction.Down:
-                    currentImage = Properties.Resources.KolobokDown;
+                    CurrentImage = Properties.Resources.KolobokDown;
                     break;
                 case MovingObject.direction.Up:
-                    currentImage = Properties.Resources.KolobokUp;
+                    CurrentImage = Properties.Resources.KolobokUp;
                     break;
                 case MovingObject.direction.Right:
-                    currentImage = Properties.Resources.KolobokRight;
+                    CurrentImage = Properties.Resources.KolobokRight;
                     break;
                 case MovingObject.direction.Left:
-                    currentImage = Properties.Resources.KolobokLeft;
+                    CurrentImage = Properties.Resources.KolobokLeft;
                     break;
                 case MovingObject.direction.None:
                     break;

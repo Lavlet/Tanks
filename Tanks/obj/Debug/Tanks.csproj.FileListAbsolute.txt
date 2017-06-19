@@ -43,3 +43,10 @@ C:\Users\emily\Desktop\Tanks (с правками на Ладином компь
 C:\Users\emily\Desktop\Tanks\Tanks\bin\Debug\Tanks.exe.config
 C:\Users\emily\Desktop\Tanks\Tanks\obj\Debug\Tanks.exe
 C:\Users\emily\Desktop\Tanks\Tanks\obj\Debug\Tanks.pdb
+C:\Users\emily\Desktop\Tanks\Tanks\bin\Debug\Tanks.exe
+C:\Users\emily\Desktop\Tanks\Tanks\bin\Debug\Tanks.pdb
+C:\Users\emily\Desktop\Tanks\Tanks\obj\Debug\Tanks.csprojResolveAssemblyReference.cache
+C:\Users\emily\Desktop\Tanks\Tanks\obj\Debug\Tanks.ControllerMainWindow.resources
+C:\Users\emily\Desktop\Tanks\Tanks\obj\Debug\Tanks.Properties.Resources.resources
+C:\Users\emily\Desktop\Tanks\Tanks\obj\Debug\Tanks.GameView.resources
+C:\Users\emily\Desktop\Tanks\Tanks\obj\Debug\Tanks.csproj.GenerateResource.Cache

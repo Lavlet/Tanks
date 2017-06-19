@@ -17,13 +17,10 @@ namespace Tanks
             ownHeight = GameModel.appleImage.Height;
             ownWidth = GameModel.appleImage.Width;
         }
-        public Apple(int x, int y)
+        public Apple(int x, int y): this()
         {
             X = x;
             Y = y;
-            appleView = new AppleView(new Point(X, Y), Properties.Resources.Apple);
-            ownHeight = GameModel.appleImage.Height;
-            ownWidth = GameModel.appleImage.Width;
         }
 
         public static void AddNewApple(int prevX, int prevY)

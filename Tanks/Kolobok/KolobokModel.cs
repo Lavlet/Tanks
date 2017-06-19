@@ -24,8 +24,8 @@ namespace Tanks
             Y = GameModel.fieldSize-17;
             currentDirection = direction.Up;
             kolobokView = new Kolobok.KolobokView(currentDirection, new Point(X, Y));
-            ownHeight = kolobokView.currentImage.Height;
-            ownWidth = kolobokView.currentImage.Width;
+            ownHeight = kolobokView.GetCurrentImage().Height;
+            ownWidth = kolobokView.GetCurrentImage().Width;
         }
 
         public override void Move()

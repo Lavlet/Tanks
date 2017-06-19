@@ -18,16 +18,16 @@ namespace Tanks
             switch (currentDirection)
             {
                 case MovingObject.direction.Down:
-                    currentImage = Properties.Resources.BulletDown;
+                    CurrentImage = Properties.Resources.BulletDown;
                     break;
                 case MovingObject.direction.Up:
-                    currentImage = Properties.Resources.BulletUp;
+                    CurrentImage = Properties.Resources.BulletUp;
                     break;
                 case MovingObject.direction.Right:
-                    currentImage = Properties.Resources.BulletRight;
+                    CurrentImage = Properties.Resources.BulletRight;
                     break;
                 case MovingObject.direction.Left:
-                    currentImage = Properties.Resources.BulletLeft;
+                    CurrentImage = Properties.Resources.BulletLeft;
                     break;
                 case MovingObject.direction.None:
                     break;

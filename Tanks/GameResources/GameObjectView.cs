@@ -10,7 +10,20 @@ namespace Tanks
     public abstract class GameObjectView
     {
 
-        public Bitmap currentImage;
+        private Bitmap currentImage;
+
+        public Bitmap CurrentImage
+        {
+            get
+            {
+                return currentImage;
+            }
+            set
+            {
+                currentImage = value;
+                //currentImage.MakeTransparent(Color.White);
+            }
+        }
 
         public Point currentCoordinates;
 
@@ -21,8 +34,8 @@ namespace Tanks
         }
         public Image GetCurrentImage()
         {
-            currentImage.MakeTransparent(Color.White);
-            return currentImage;
+            currentImage.MakeTransparent(Color.White); //Почему то работает только так
+            return CurrentImage;
         }
     }
 }
