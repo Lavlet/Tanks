@@ -45,7 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Apple\Apple.cs" />
+    <Compile Include="Apple\AppleModel.cs" />
     <Compile Include="Apple\AppleView.cs" />
     <Compile Include="Bullet\BulletModel.cs" />
     <Compile Include="Bullet\BulletView.cs" />

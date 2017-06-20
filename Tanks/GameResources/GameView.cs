@@ -33,29 +33,30 @@ namespace Tanks
             InitializeComponent();
         }
 
+        private void DrawGameObjects<T>(PaintEventArgs e, List<T> gameObjects) where T: GameObject
+        {
+            for (int i = 0; i < gameObjects.Count; i++)
+            {
+                T currentGameObject = gameObjects[i];
+                if (currentGameObject != null)
+                {
+                    e.Graphics.DrawImage(currentGameObject.GetCurrentImage(), new Point(currentGameObject.X, currentGameObject.Y));
+                }
+            }
+        }
+       
+                
+
         private void View_Paint(object sender, PaintEventArgs e)
         {
-            foreach (Wall wall in GameModel.walls) //Перерисовываем стены
-            {
-                e.Graphics.DrawImage(wall.GetCurrentImage(), new Point(wall.X, wall.Y));
-            }
-
-            foreach (Apple apple in GameModel.apples) //Перерисовываем яблоки
-            {
-                e.Graphics.DrawImage(apple.GetCurrentImage(), new Point(apple.X, apple.Y));
-            }
+            DrawGameObjects(e, GameModel.walls);
+            DrawGameObjects(e, GameModel.apples);            
 
             e.Graphics.DrawImage(colobocController.GetCurrentImage(), colobocController.GetCoordinates()); //Перерисовываем колобка
 
-            foreach (TankModel tank in GameModel.tanks) //Перерисовываем танки
-            {
-                e.Graphics.DrawImage(tank.GetCurrentImage(), new Point(tank.X, tank.Y));
-            }
+            DrawGameObjects(e, GameModel.tanks);
+            DrawGameObjects(e, GameModel.bullets);
 
-            foreach (BulletModel bullet in GameModel.bullets) //Вылетает если выстрелить во время отрисовки?
-            {
-                e.Graphics.DrawImage(bullet.GetCurrentImage(), new Point(bullet.X, bullet.Y));
-            }
             colobocController.Action(currentDirectionKey);
             Thread.Sleep(gameSpeed);
             Invalidate();

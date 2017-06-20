@@ -90,14 +90,19 @@ namespace Tanks
                 int limitX = 0;
                 int limitY = 0;
 
-                limitX = coinToss.Next(0, 2) == 0 ? prevX - 2 * ownWidth : prevX + 2 * ownWidth; //Может лучше отталкиваться от колобка, а не от яблок?
-                limitX = limitX < 0 ? 0 : GameModel.fieldSize - ownWidth;
-                x = randomizer.Next(0, limitX + 1);
+                //limitX = coinToss.Next(0, 2) == 0 ? prevX - 2 * ownWidth : prevX + 2 * ownWidth; //Может лучше отталкиваться от колобка, а не от яблок?
+                //limitX = limitX < 0 ? 0 : GameModel.fieldSize - ownWidth;
+                x = randomizer.Next(0, GameModel.fieldSize/*limitX + 1*/);
 
 
-                limitY = coinToss.Next(0, 2) == 0 ? prevY - 2 * ownHeight : prevY + 2 * ownHeight;
-                limitY = limitY < 0 ? 0 : GameModel.fieldSize - ownHeight;
-                y = randomizer.Next(0, limitY + 1);
+                //limitY = coinToss.Next(0, 2) == 0 ? prevY - 2 * ownHeight : prevY + 2 * ownHeight;
+                //limitY = limitY < 0 ? 0 : GameModel.fieldSize - ownHeight;
+                y = randomizer.Next(0, GameModel.fieldSize/*limitY + 1*/);
+
+                /*if (x*x + y*y <= 4*(ownWidth > ownHeight? ownWidth*ownWidth: ownHeight*ownHeight)) //Как вариант подумать с окружностью
+                {
+                    continue;
+                }*/
 
                 if ((Collision(x, y) == MovingObject.collisionType.None))
                 {
